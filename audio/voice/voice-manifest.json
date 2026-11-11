@@ -1,0 +1,1241 @@
+{
+ "_how": "clips[rec][lineIndex] = list of parts played back to back. A part is {f: file} or {f: {valueKey: file}, tok: name}. For enumerated tokens the key is the values joined by | in the order of \"toks\". For number tokens use the key shown in \"keys\". YOU lines have two casts: pick voice.YOU = \"M\" or \"F\".",
+ "cast": {
+  "INES": [
+   "bf_emma",
+   "en-gb",
+   0.92
+  ],
+  "TOMAS": [
+   "am_michael",
+   "en-us",
+   0.93
+  ],
+  "PRIYA": [
+   "af_heart",
+   "en-us",
+   0.97
+  ],
+  "BEA": [
+   "bf_alice",
+   "en-gb",
+   0.9
+  ],
+  "DIR": [
+   "bm_george",
+   "en-gb",
+   0.86
+  ],
+  "YOU_M": [
+   "am_puck",
+   "en-us",
+   0.95
+  ],
+  "YOU_F": [
+   "af_sarah",
+   "en-us",
+   0.95
+  ]
+ },
+ "clips": {
+  "R1": [
+   [
+    {
+     "f": "ines-r1-00.mp3"
+    }
+   ],
+   [
+    {
+     "f": "tomas-r1-01.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r1-02.mp3"
+    }
+   ],
+   [
+    {
+     "f": "tomas-r1-03.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r1-04.mp3"
+    }
+   ],
+   [
+    {
+     "f": "tomas-r1-05.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r1-06.mp3"
+    }
+   ],
+   [
+    {
+     "f": "tomas-r1-07.mp3"
+    }
+   ]
+  ],
+  "R2": [
+   [
+    {
+     "f": "tomas-r2-00.mp3"
+    }
+   ],
+   [
+    {
+     "f": "priya-r2-01.mp3"
+    }
+   ],
+   [
+    {
+     "f": "tomas-r2-02.mp3"
+    }
+   ],
+   null,
+   [
+    {
+     "f": "priya-r2-04.mp3"
+    }
+   ],
+   [
+    {
+     "f": "tomas-r2-05.mp3"
+    }
+   ],
+   null,
+   [
+    {
+     "f": "tomas-r2-07.mp3"
+    }
+   ],
+   [
+    {
+     "toks": [
+      "card1"
+     ],
+     "f": {
+      "blue": "priya-r2-08-blue.mp3",
+      "yellow": "priya-r2-08-yellow.mp3",
+      "red": "priya-r2-08-red.mp3"
+     }
+    }
+   ]
+  ],
+  "R3": [
+   [
+    {
+     "f": "ines-r3-00.mp3"
+    }
+   ],
+   [
+    {
+     "f": "priya-r3-01.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r3-02.mp3"
+    }
+   ],
+   [
+    {
+     "f": "priya-r3-03.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r3-04.mp3"
+    }
+   ],
+   [
+    {
+     "f": "priya-r3-05.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r3-06.mp3"
+    }
+   ],
+   [
+    {
+     "f": "priya-r3-07.mp3"
+    }
+   ]
+  ],
+  "R4": [
+   [
+    {
+     "f": "priya-r4-00.mp3"
+    }
+   ],
+   null,
+   [
+    {
+     "f": "ines-r4-02.mp3"
+    }
+   ],
+   [
+    {
+     "f": "priya-r4-03.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r4-04.mp3"
+    }
+   ],
+   [
+    {
+     "f": "priya-r4-05.mp3"
+    }
+   ],
+   [
+    {
+     "f": "priya-r4-06.mp3"
+    }
+   ],
+   [
+    {
+     "toks": [
+      "card1"
+     ],
+     "f": {
+      "blue": "priya-r4-07-blue.mp3",
+      "yellow": "priya-r4-07-yellow.mp3",
+      "red": "priya-r4-07-red.mp3"
+     }
+    }
+   ],
+   [
+    {
+     "f": "ines-r4-08.mp3"
+    }
+   ],
+   [
+    {
+     "toks": [
+      "torch",
+      "room"
+     ],
+     "f": {
+      "on|echo chamber": "priya-r4-09-on-echo-chamber.mp3",
+      "on|acoustics lab": "priya-r4-09-on-acoustics-lab.mp3",
+      "on|lobby": "priya-r4-09-on-lobby.mp3",
+      "on|security office": "priya-r4-09-on-security-office.mp3",
+      "on|west corridor": "priya-r4-09-on-west-corridor.mp3",
+      "on|archive": "priya-r4-09-on-archive.mp3",
+      "on|server room": "priya-r4-09-on-server-room.mp3",
+      "on|east corridor": "priya-r4-09-on-east-corridor.mp3",
+      "on|lift hall": "priya-r4-09-on-lift-hall.mp3",
+      "on|dark": "priya-r4-09-on-dark.mp3",
+      "off|echo chamber": "priya-r4-09-off-echo-chamber.mp3",
+      "off|acoustics lab": "priya-r4-09-off-acoustics-lab.mp3",
+      "off|lobby": "priya-r4-09-off-lobby.mp3",
+      "off|security office": "priya-r4-09-off-security-office.mp3",
+      "off|west corridor": "priya-r4-09-off-west-corridor.mp3",
+      "off|archive": "priya-r4-09-off-archive.mp3",
+      "off|server room": "priya-r4-09-off-server-room.mp3",
+      "off|east corridor": "priya-r4-09-off-east-corridor.mp3",
+      "off|lift hall": "priya-r4-09-off-lift-hall.mp3",
+      "off|dark": "priya-r4-09-off-dark.mp3"
+     }
+    }
+   ],
+   [
+    {
+     "f": "ines-r4-10.mp3"
+    }
+   ],
+   [
+    {
+     "f": "priya-r4-11.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r4-12.mp3"
+    }
+   ],
+   null
+  ],
+  "R5": [
+   [
+    {
+     "f": "bea-r5-00.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r5-01.mp3"
+    }
+   ],
+   [
+    {
+     "f": "bea-r5-02.mp3"
+    },
+    {
+     "tok": "heardBefore",
+     "f": {
+      "0": "bea-tok-heardBefore-0.mp3",
+      "1": "bea-tok-heardBefore-1.mp3",
+      "2": "bea-tok-heardBefore-2.mp3",
+      "3": "bea-tok-heardBefore-3.mp3",
+      "4": "bea-tok-heardBefore-4.mp3",
+      "5": "bea-tok-heardBefore-5.mp3",
+      "6": "bea-tok-heardBefore-6.mp3",
+      "7": "bea-tok-heardBefore-7.mp3",
+      "8": "bea-tok-heardBefore-8.mp3",
+      "9": "bea-tok-heardBefore-9.mp3",
+      "10": "bea-tok-heardBefore-10.mp3",
+      "11": "bea-tok-heardBefore-11.mp3",
+      "12": "bea-tok-heardBefore-12.mp3",
+      "13": "bea-tok-heardBefore-13.mp3",
+      "14": "bea-tok-heardBefore-14.mp3",
+      "15": "bea-tok-heardBefore-15.mp3",
+      "16": "bea-tok-heardBefore-16.mp3",
+      "17": "bea-tok-heardBefore-17.mp3",
+      "18": "bea-tok-heardBefore-18.mp3",
+      "19": "bea-tok-heardBefore-19.mp3",
+      "20": "bea-tok-heardBefore-20.mp3"
+     }
+    },
+    {
+     "f": "bea-r5-02-2.mp3"
+    }
+   ],
+   [
+    {
+     "f": "bea-r5-03.mp3"
+    },
+    {
+     "tok": "mins",
+     "f": {
+      "0": "bea-tok-mins-0.mp3",
+      "1": "bea-tok-mins-1.mp3",
+      "2": "bea-tok-mins-2.mp3",
+      "3": "bea-tok-mins-3.mp3",
+      "4": "bea-tok-mins-4.mp3",
+      "5": "bea-tok-mins-5.mp3",
+      "6": "bea-tok-mins-6.mp3",
+      "7": "bea-tok-mins-7.mp3",
+      "8": "bea-tok-mins-8.mp3",
+      "9": "bea-tok-mins-9.mp3",
+      "10": "bea-tok-mins-10.mp3",
+      "11": "bea-tok-mins-11.mp3",
+      "12": "bea-tok-mins-12.mp3",
+      "13": "bea-tok-mins-13.mp3",
+      "14": "bea-tok-mins-14.mp3",
+      "15": "bea-tok-mins-15.mp3",
+      "16": "bea-tok-mins-16.mp3",
+      "17": "bea-tok-mins-17.mp3",
+      "18": "bea-tok-mins-18.mp3",
+      "19": "bea-tok-mins-19.mp3",
+      "20": "bea-tok-mins-20.mp3",
+      "21": "bea-tok-mins-21.mp3",
+      "22": "bea-tok-mins-22.mp3",
+      "23": "bea-tok-mins-23.mp3",
+      "24": "bea-tok-mins-24.mp3",
+      "25": "bea-tok-mins-25.mp3",
+      "26": "bea-tok-mins-26.mp3",
+      "27": "bea-tok-mins-27.mp3",
+      "28": "bea-tok-mins-28.mp3",
+      "29": "bea-tok-mins-29.mp3",
+      "30": "bea-tok-mins-30.mp3",
+      "31": "bea-tok-mins-31.mp3",
+      "32": "bea-tok-mins-32.mp3",
+      "33": "bea-tok-mins-33.mp3",
+      "34": "bea-tok-mins-34.mp3",
+      "35": "bea-tok-mins-35.mp3",
+      "36": "bea-tok-mins-36.mp3",
+      "37": "bea-tok-mins-37.mp3",
+      "38": "bea-tok-mins-38.mp3",
+      "39": "bea-tok-mins-39.mp3",
+      "40": "bea-tok-mins-40.mp3",
+      "41": "bea-tok-mins-41.mp3",
+      "42": "bea-tok-mins-42.mp3",
+      "43": "bea-tok-mins-43.mp3",
+      "44": "bea-tok-mins-44.mp3",
+      "45": "bea-tok-mins-45.mp3",
+      "46": "bea-tok-mins-46.mp3",
+      "47": "bea-tok-mins-47.mp3",
+      "48": "bea-tok-mins-48.mp3",
+      "49": "bea-tok-mins-49.mp3",
+      "50": "bea-tok-mins-50.mp3",
+      "51": "bea-tok-mins-51.mp3",
+      "52": "bea-tok-mins-52.mp3",
+      "53": "bea-tok-mins-53.mp3",
+      "54": "bea-tok-mins-54.mp3",
+      "55": "bea-tok-mins-55.mp3",
+      "56": "bea-tok-mins-56.mp3",
+      "57": "bea-tok-mins-57.mp3",
+      "58": "bea-tok-mins-58.mp3",
+      "59": "bea-tok-mins-59.mp3",
+      "60": "bea-tok-mins-60.mp3"
+     }
+    },
+    {
+     "f": "bea-r5-03-2.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r5-04.mp3"
+    }
+   ],
+   [
+    {
+     "f": "bea-r5-05.mp3"
+    },
+    {
+     "tok": "offLine",
+     "f": {
+      "0": "bea-tok-offLine-0.mp3",
+      "1": "bea-tok-offLine-1.mp3",
+      "2": "bea-tok-offLine-2.mp3",
+      "3": "bea-tok-offLine-3.mp3",
+      "4": "bea-tok-offLine-4.mp3",
+      "5": "bea-tok-offLine-5.mp3",
+      "6": "bea-tok-offLine-6.mp3",
+      "7": "bea-tok-offLine-7.mp3",
+      "8": "bea-tok-offLine-8.mp3",
+      "9": "bea-tok-offLine-9.mp3",
+      "10": "bea-tok-offLine-10.mp3",
+      "11": "bea-tok-offLine-11.mp3",
+      "12": "bea-tok-offLine-12.mp3",
+      "13": "bea-tok-offLine-13.mp3",
+      "14": "bea-tok-offLine-14.mp3",
+      "15": "bea-tok-offLine-15.mp3",
+      "16": "bea-tok-offLine-16.mp3",
+      "17": "bea-tok-offLine-17.mp3",
+      "18": "bea-tok-offLine-18.mp3",
+      "19": "bea-tok-offLine-19.mp3",
+      "20": "bea-tok-offLine-20.mp3",
+      "21": "bea-tok-offLine-21.mp3",
+      "22": "bea-tok-offLine-22.mp3",
+      "23": "bea-tok-offLine-23.mp3",
+      "24": "bea-tok-offLine-24.mp3",
+      "25": "bea-tok-offLine-25.mp3",
+      "26": "bea-tok-offLine-26.mp3",
+      "27": "bea-tok-offLine-27.mp3",
+      "28": "bea-tok-offLine-28.mp3",
+      "29": "bea-tok-offLine-29.mp3",
+      "30": "bea-tok-offLine-30.mp3"
+     }
+    }
+   ],
+   [
+    {
+     "toks": [
+      "itWhere"
+     ],
+     "f": {
+      "nowhere near, still asleep below the station": "bea-r5-06-nowhere-near-still-asleep-below-the-stat.mp3",
+      "in the same room, very close": "bea-r5-06-in-the-same-room-very-close.mp3",
+      "in the echo chamber": "bea-r5-06-in-the-echo-chamber.mp3",
+      "in the acoustics lab": "bea-r5-06-in-the-acoustics-lab.mp3",
+      "in the lobby": "bea-r5-06-in-the-lobby.mp3",
+      "in the security office": "bea-r5-06-in-the-security-office.mp3",
+      "in the west corridor": "bea-r5-06-in-the-west-corridor.mp3",
+      "in the archive": "bea-r5-06-in-the-archive.mp3",
+      "in the server room": "bea-r5-06-in-the-server-room.mp3",
+      "in the east corridor": "bea-r5-06-in-the-east-corridor.mp3",
+      "in the lift hall": "bea-r5-06-in-the-lift-hall.mp3",
+      "in the dark between the rooms": "bea-r5-06-in-the-dark-between-the-rooms.mp3"
+     }
+    }
+   ],
+   [
+    {
+     "toks": [
+      "room"
+     ],
+     "f": {
+      "echo chamber": "bea-r5-07-echo-chamber.mp3",
+      "acoustics lab": "bea-r5-07-acoustics-lab.mp3",
+      "lobby": "bea-r5-07-lobby.mp3",
+      "security office": "bea-r5-07-security-office.mp3",
+      "west corridor": "bea-r5-07-west-corridor.mp3",
+      "archive": "bea-r5-07-archive.mp3",
+      "server room": "bea-r5-07-server-room.mp3",
+      "east corridor": "bea-r5-07-east-corridor.mp3",
+      "lift hall": "bea-r5-07-lift-hall.mp3",
+      "dark": "bea-r5-07-dark.mp3"
+     }
+    }
+   ],
+   [
+    {
+     "f": "ines-r5-08.mp3"
+    }
+   ],
+   null,
+   [
+    {
+     "f": "bea-r5-10.mp3"
+    }
+   ]
+  ],
+  "R6": [
+   [
+    {
+     "f": "bea-r6-00.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r6-01.mp3"
+    }
+   ],
+   [
+    {
+     "toks": [
+      "card3"
+     ],
+     "f": {
+      "blue": "bea-r6-02-blue.mp3",
+      "yellow": "bea-r6-02-yellow.mp3",
+      "red": "bea-r6-02-red.mp3"
+     }
+    }
+   ],
+   [
+    {
+     "toks": [
+      "card3"
+     ],
+     "f": {
+      "blue": "ines-r6-03-blue.mp3",
+      "yellow": "ines-r6-03-yellow.mp3",
+      "red": "ines-r6-03-red.mp3"
+     }
+    }
+   ],
+   [
+    {
+     "f": "bea-r6-04.mp3"
+    }
+   ],
+   null,
+   [
+    {
+     "f": "bea-r6-06.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r6-07.mp3"
+    }
+   ],
+   [
+    {
+     "f": "bea-r6-08.mp3"
+    }
+   ]
+  ],
+  "R7": [
+   [
+    {
+     "f": "bea-r7-00.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r7-01.mp3"
+    }
+   ],
+   [
+    {
+     "toks": [
+      "card3"
+     ],
+     "f": {
+      "blue": "bea-r7-02-blue.mp3",
+      "yellow": "bea-r7-02-yellow.mp3",
+      "red": "bea-r7-02-red.mp3"
+     }
+    },
+    {
+     "tok": "c3delay",
+     "f": {
+      "1": "bea-tok-c3delay-1.mp3",
+      "2": "bea-tok-c3delay-2.mp3",
+      "3": "bea-tok-c3delay-3.mp3",
+      "4": "bea-tok-c3delay-4.mp3",
+      "5": "bea-tok-c3delay-5.mp3",
+      "6": "bea-tok-c3delay-6.mp3",
+      "7": "bea-tok-c3delay-7.mp3",
+      "8": "bea-tok-c3delay-8.mp3",
+      "9": "bea-tok-c3delay-9.mp3",
+      "10": "bea-tok-c3delay-10.mp3",
+      "11": "bea-tok-c3delay-11.mp3",
+      "12": "bea-tok-c3delay-12.mp3",
+      "13": "bea-tok-c3delay-13.mp3",
+      "14": "bea-tok-c3delay-14.mp3",
+      "15": "bea-tok-c3delay-15.mp3",
+      "16": "bea-tok-c3delay-16.mp3",
+      "17": "bea-tok-c3delay-17.mp3",
+      "18": "bea-tok-c3delay-18.mp3",
+      "19": "bea-tok-c3delay-19.mp3",
+      "20": "bea-tok-c3delay-20.mp3",
+      "21": "bea-tok-c3delay-21.mp3",
+      "22": "bea-tok-c3delay-22.mp3",
+      "23": "bea-tok-c3delay-23.mp3",
+      "24": "bea-tok-c3delay-24.mp3",
+      "25": "bea-tok-c3delay-25.mp3",
+      "26": "bea-tok-c3delay-26.mp3",
+      "27": "bea-tok-c3delay-27.mp3",
+      "28": "bea-tok-c3delay-28.mp3",
+      "29": "bea-tok-c3delay-29.mp3",
+      "30": "bea-tok-c3delay-30.mp3",
+      "31": "bea-tok-c3delay-31.mp3",
+      "32": "bea-tok-c3delay-32.mp3",
+      "33": "bea-tok-c3delay-33.mp3",
+      "34": "bea-tok-c3delay-34.mp3",
+      "35": "bea-tok-c3delay-35.mp3",
+      "36": "bea-tok-c3delay-36.mp3",
+      "37": "bea-tok-c3delay-37.mp3",
+      "38": "bea-tok-c3delay-38.mp3",
+      "39": "bea-tok-c3delay-39.mp3",
+      "40": "bea-tok-c3delay-40.mp3",
+      "41": "bea-tok-c3delay-41.mp3",
+      "42": "bea-tok-c3delay-42.mp3",
+      "43": "bea-tok-c3delay-43.mp3",
+      "44": "bea-tok-c3delay-44.mp3",
+      "45": "bea-tok-c3delay-45.mp3",
+      "46": "bea-tok-c3delay-46.mp3",
+      "47": "bea-tok-c3delay-47.mp3",
+      "48": "bea-tok-c3delay-48.mp3",
+      "49": "bea-tok-c3delay-49.mp3",
+      "50": "bea-tok-c3delay-50.mp3",
+      "51": "bea-tok-c3delay-51.mp3",
+      "52": "bea-tok-c3delay-52.mp3",
+      "53": "bea-tok-c3delay-53.mp3",
+      "54": "bea-tok-c3delay-54.mp3",
+      "55": "bea-tok-c3delay-55.mp3",
+      "56": "bea-tok-c3delay-56.mp3",
+      "57": "bea-tok-c3delay-57.mp3",
+      "58": "bea-tok-c3delay-58.mp3",
+      "59": "bea-tok-c3delay-59.mp3",
+      "m1": "bea-tok-c3delay-m1.mp3",
+      "m2": "bea-tok-c3delay-m2.mp3",
+      "m3": "bea-tok-c3delay-m3.mp3",
+      "m4": "bea-tok-c3delay-m4.mp3",
+      "m5": "bea-tok-c3delay-m5.mp3",
+      "m6": "bea-tok-c3delay-m6.mp3",
+      "m7": "bea-tok-c3delay-m7.mp3",
+      "m8": "bea-tok-c3delay-m8.mp3",
+      "m9": "bea-tok-c3delay-m9.mp3",
+      "m10": "bea-tok-c3delay-m10.mp3"
+     }
+    },
+    {
+     "f": "bea-r7-02-2.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r7-03.mp3"
+    }
+   ],
+   [
+    {
+     "f": "tomas-r7-04.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r7-05.mp3"
+    }
+   ],
+   [
+    {
+     "f": "tomas-r7-06.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r7-07.mp3"
+    }
+   ],
+   [
+    {
+     "toks": [
+      "itWhere"
+     ],
+     "f": {
+      "nowhere near, still asleep below the station": "tomas-r7-08-nowhere-near-still-asleep-below-the-stat.mp3",
+      "in the same room, very close": "tomas-r7-08-in-the-same-room-very-close.mp3",
+      "in the echo chamber": "tomas-r7-08-in-the-echo-chamber.mp3",
+      "in the acoustics lab": "tomas-r7-08-in-the-acoustics-lab.mp3",
+      "in the lobby": "tomas-r7-08-in-the-lobby.mp3",
+      "in the security office": "tomas-r7-08-in-the-security-office.mp3",
+      "in the west corridor": "tomas-r7-08-in-the-west-corridor.mp3",
+      "in the archive": "tomas-r7-08-in-the-archive.mp3",
+      "in the server room": "tomas-r7-08-in-the-server-room.mp3",
+      "in the east corridor": "tomas-r7-08-in-the-east-corridor.mp3",
+      "in the lift hall": "tomas-r7-08-in-the-lift-hall.mp3",
+      "in the dark between the rooms": "tomas-r7-08-in-the-dark-between-the-rooms.mp3"
+     }
+    }
+   ]
+  ],
+  "R8": [
+   [
+    {
+     "f": "dir-r8-00.mp3"
+    }
+   ],
+   [
+    {
+     "f": "dir-r8-01.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r8-02.mp3"
+    }
+   ],
+   [
+    {
+     "f": "dir-r8-03.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r8-04.mp3"
+    }
+   ],
+   null,
+   [
+    {
+     "f": "ines-r8-06.mp3"
+    }
+   ],
+   [
+    {
+     "f": "dir-r8-07.mp3"
+    }
+   ],
+   [
+    {
+     "f": "ines-r8-08.mp3"
+    }
+   ],
+   null
+  ],
+  "R9": [
+   [
+    {
+     "f": "priya-r9-00.mp3"
+    }
+   ],
+   [
+    {
+     "f": "priya-r9-01.mp3"
+    },
+    {
+     "tok": "heardBefore",
+     "f": {
+      "0": "priya-tok-heardBefore-0.mp3",
+      "1": "priya-tok-heardBefore-1.mp3",
+      "2": "priya-tok-heardBefore-2.mp3",
+      "3": "priya-tok-heardBefore-3.mp3",
+      "4": "priya-tok-heardBefore-4.mp3",
+      "5": "priya-tok-heardBefore-5.mp3",
+      "6": "priya-tok-heardBefore-6.mp3",
+      "7": "priya-tok-heardBefore-7.mp3",
+      "8": "priya-tok-heardBefore-8.mp3",
+      "9": "priya-tok-heardBefore-9.mp3",
+      "10": "priya-tok-heardBefore-10.mp3",
+      "11": "priya-tok-heardBefore-11.mp3",
+      "12": "priya-tok-heardBefore-12.mp3",
+      "13": "priya-tok-heardBefore-13.mp3",
+      "14": "priya-tok-heardBefore-14.mp3",
+      "15": "priya-tok-heardBefore-15.mp3",
+      "16": "priya-tok-heardBefore-16.mp3",
+      "17": "priya-tok-heardBefore-17.mp3",
+      "18": "priya-tok-heardBefore-18.mp3",
+      "19": "priya-tok-heardBefore-19.mp3",
+      "20": "priya-tok-heardBefore-20.mp3"
+     }
+    },
+    {
+     "f": "priya-r9-01-2.mp3"
+    },
+    {
+     "tok": "mins",
+     "f": {
+      "0": "priya-tok-mins-0.mp3",
+      "1": "priya-tok-mins-1.mp3",
+      "2": "priya-tok-mins-2.mp3",
+      "3": "priya-tok-mins-3.mp3",
+      "4": "priya-tok-mins-4.mp3",
+      "5": "priya-tok-mins-5.mp3",
+      "6": "priya-tok-mins-6.mp3",
+      "7": "priya-tok-mins-7.mp3",
+      "8": "priya-tok-mins-8.mp3",
+      "9": "priya-tok-mins-9.mp3",
+      "10": "priya-tok-mins-10.mp3",
+      "11": "priya-tok-mins-11.mp3",
+      "12": "priya-tok-mins-12.mp3",
+      "13": "priya-tok-mins-13.mp3",
+      "14": "priya-tok-mins-14.mp3",
+      "15": "priya-tok-mins-15.mp3",
+      "16": "priya-tok-mins-16.mp3",
+      "17": "priya-tok-mins-17.mp3",
+      "18": "priya-tok-mins-18.mp3",
+      "19": "priya-tok-mins-19.mp3",
+      "20": "priya-tok-mins-20.mp3",
+      "21": "priya-tok-mins-21.mp3",
+      "22": "priya-tok-mins-22.mp3",
+      "23": "priya-tok-mins-23.mp3",
+      "24": "priya-tok-mins-24.mp3",
+      "25": "priya-tok-mins-25.mp3",
+      "26": "priya-tok-mins-26.mp3",
+      "27": "priya-tok-mins-27.mp3",
+      "28": "priya-tok-mins-28.mp3",
+      "29": "priya-tok-mins-29.mp3",
+      "30": "priya-tok-mins-30.mp3",
+      "31": "priya-tok-mins-31.mp3",
+      "32": "priya-tok-mins-32.mp3",
+      "33": "priya-tok-mins-33.mp3",
+      "34": "priya-tok-mins-34.mp3",
+      "35": "priya-tok-mins-35.mp3",
+      "36": "priya-tok-mins-36.mp3",
+      "37": "priya-tok-mins-37.mp3",
+      "38": "priya-tok-mins-38.mp3",
+      "39": "priya-tok-mins-39.mp3",
+      "40": "priya-tok-mins-40.mp3",
+      "41": "priya-tok-mins-41.mp3",
+      "42": "priya-tok-mins-42.mp3",
+      "43": "priya-tok-mins-43.mp3",
+      "44": "priya-tok-mins-44.mp3",
+      "45": "priya-tok-mins-45.mp3",
+      "46": "priya-tok-mins-46.mp3",
+      "47": "priya-tok-mins-47.mp3",
+      "48": "priya-tok-mins-48.mp3",
+      "49": "priya-tok-mins-49.mp3",
+      "50": "priya-tok-mins-50.mp3",
+      "51": "priya-tok-mins-51.mp3",
+      "52": "priya-tok-mins-52.mp3",
+      "53": "priya-tok-mins-53.mp3",
+      "54": "priya-tok-mins-54.mp3",
+      "55": "priya-tok-mins-55.mp3",
+      "56": "priya-tok-mins-56.mp3",
+      "57": "priya-tok-mins-57.mp3",
+      "58": "priya-tok-mins-58.mp3",
+      "59": "priya-tok-mins-59.mp3",
+      "60": "priya-tok-mins-60.mp3"
+     }
+    },
+    {
+     "f": "priya-r9-01-4.mp3"
+    },
+    {
+     "tok": "journalLine",
+     "f": {
+      "0": "priya-tok-journalLine-0.mp3",
+      "1": "priya-tok-journalLine-1.mp3",
+      "2": "priya-tok-journalLine-2.mp3",
+      "3": "priya-tok-journalLine-3.mp3",
+      "4": "priya-tok-journalLine-4.mp3",
+      "5": "priya-tok-journalLine-5.mp3",
+      "6": "priya-tok-journalLine-6.mp3",
+      "7": "priya-tok-journalLine-7.mp3",
+      "8": "priya-tok-journalLine-8.mp3",
+      "9": "priya-tok-journalLine-9.mp3",
+      "10": "priya-tok-journalLine-10.mp3",
+      "11": "priya-tok-journalLine-11.mp3",
+      "12": "priya-tok-journalLine-12.mp3",
+      "13": "priya-tok-journalLine-13.mp3",
+      "14": "priya-tok-journalLine-14.mp3",
+      "15": "priya-tok-journalLine-15.mp3",
+      "16": "priya-tok-journalLine-16.mp3",
+      "17": "priya-tok-journalLine-17.mp3",
+      "18": "priya-tok-journalLine-18.mp3",
+      "19": "priya-tok-journalLine-19.mp3",
+      "20": "priya-tok-journalLine-20.mp3",
+      "21": "priya-tok-journalLine-21.mp3",
+      "22": "priya-tok-journalLine-22.mp3",
+      "23": "priya-tok-journalLine-23.mp3",
+      "24": "priya-tok-journalLine-24.mp3",
+      "25": "priya-tok-journalLine-25.mp3",
+      "26": "priya-tok-journalLine-26.mp3",
+      "27": "priya-tok-journalLine-27.mp3",
+      "28": "priya-tok-journalLine-28.mp3",
+      "29": "priya-tok-journalLine-29.mp3",
+      "30": "priya-tok-journalLine-30.mp3"
+     }
+    },
+    {
+     "f": "priya-r9-01-6.mp3"
+    }
+   ],
+   [
+    {
+     "f": "priya-r9-02.mp3"
+    }
+   ],
+   [
+    {
+     "f": "priya-r9-03.mp3"
+    }
+   ],
+   [
+    {
+     "f": "priya-r9-04.mp3"
+    }
+   ],
+   [
+    {
+     "toks": [
+      "itWhere"
+     ],
+     "f": {
+      "nowhere near, still asleep below the station": "priya-r9-05-nowhere-near-still-asleep-below-the-stat.mp3",
+      "in the same room, very close": "priya-r9-05-in-the-same-room-very-close.mp3",
+      "in the echo chamber": "priya-r9-05-in-the-echo-chamber.mp3",
+      "in the acoustics lab": "priya-r9-05-in-the-acoustics-lab.mp3",
+      "in the lobby": "priya-r9-05-in-the-lobby.mp3",
+      "in the security office": "priya-r9-05-in-the-security-office.mp3",
+      "in the west corridor": "priya-r9-05-in-the-west-corridor.mp3",
+      "in the archive": "priya-r9-05-in-the-archive.mp3",
+      "in the server room": "priya-r9-05-in-the-server-room.mp3",
+      "in the east corridor": "priya-r9-05-in-the-east-corridor.mp3",
+      "in the lift hall": "priya-r9-05-in-the-lift-hall.mp3",
+      "in the dark between the rooms": "priya-r9-05-in-the-dark-between-the-rooms.mp3"
+     }
+    }
+   ],
+   [
+    {
+     "f": "tomas-r9-06.mp3"
+    }
+   ],
+   [
+    {
+     "f": "priya-r9-07.mp3"
+    }
+   ],
+   null
+  ],
+  "RY": [
+   null,
+   {
+    "YOU_M": [
+     {
+      "f": "you_m-ry-01.mp3"
+     }
+    ],
+    "YOU_F": [
+     {
+      "f": "you_f-ry-01.mp3"
+     }
+    ]
+   },
+   {
+    "YOU_M": [
+     {
+      "toks": [
+       "torch"
+      ],
+      "f": {
+       "on": "you_m-ry-02-on.mp3",
+       "off": "you_m-ry-02-off.mp3"
+      }
+     },
+     {
+      "tok": "mins",
+      "f": {
+       "0": "you_m-tok-mins-0.mp3",
+       "1": "you_m-tok-mins-1.mp3",
+       "2": "you_m-tok-mins-2.mp3",
+       "3": "you_m-tok-mins-3.mp3",
+       "4": "you_m-tok-mins-4.mp3",
+       "5": "you_m-tok-mins-5.mp3",
+       "6": "you_m-tok-mins-6.mp3",
+       "7": "you_m-tok-mins-7.mp3",
+       "8": "you_m-tok-mins-8.mp3",
+       "9": "you_m-tok-mins-9.mp3",
+       "10": "you_m-tok-mins-10.mp3",
+       "11": "you_m-tok-mins-11.mp3",
+       "12": "you_m-tok-mins-12.mp3",
+       "13": "you_m-tok-mins-13.mp3",
+       "14": "you_m-tok-mins-14.mp3",
+       "15": "you_m-tok-mins-15.mp3",
+       "16": "you_m-tok-mins-16.mp3",
+       "17": "you_m-tok-mins-17.mp3",
+       "18": "you_m-tok-mins-18.mp3",
+       "19": "you_m-tok-mins-19.mp3",
+       "20": "you_m-tok-mins-20.mp3",
+       "21": "you_m-tok-mins-21.mp3",
+       "22": "you_m-tok-mins-22.mp3",
+       "23": "you_m-tok-mins-23.mp3",
+       "24": "you_m-tok-mins-24.mp3",
+       "25": "you_m-tok-mins-25.mp3",
+       "26": "you_m-tok-mins-26.mp3",
+       "27": "you_m-tok-mins-27.mp3",
+       "28": "you_m-tok-mins-28.mp3",
+       "29": "you_m-tok-mins-29.mp3",
+       "30": "you_m-tok-mins-30.mp3",
+       "31": "you_m-tok-mins-31.mp3",
+       "32": "you_m-tok-mins-32.mp3",
+       "33": "you_m-tok-mins-33.mp3",
+       "34": "you_m-tok-mins-34.mp3",
+       "35": "you_m-tok-mins-35.mp3",
+       "36": "you_m-tok-mins-36.mp3",
+       "37": "you_m-tok-mins-37.mp3",
+       "38": "you_m-tok-mins-38.mp3",
+       "39": "you_m-tok-mins-39.mp3",
+       "40": "you_m-tok-mins-40.mp3",
+       "41": "you_m-tok-mins-41.mp3",
+       "42": "you_m-tok-mins-42.mp3",
+       "43": "you_m-tok-mins-43.mp3",
+       "44": "you_m-tok-mins-44.mp3",
+       "45": "you_m-tok-mins-45.mp3",
+       "46": "you_m-tok-mins-46.mp3",
+       "47": "you_m-tok-mins-47.mp3",
+       "48": "you_m-tok-mins-48.mp3",
+       "49": "you_m-tok-mins-49.mp3",
+       "50": "you_m-tok-mins-50.mp3",
+       "51": "you_m-tok-mins-51.mp3",
+       "52": "you_m-tok-mins-52.mp3",
+       "53": "you_m-tok-mins-53.mp3",
+       "54": "you_m-tok-mins-54.mp3",
+       "55": "you_m-tok-mins-55.mp3",
+       "56": "you_m-tok-mins-56.mp3",
+       "57": "you_m-tok-mins-57.mp3",
+       "58": "you_m-tok-mins-58.mp3",
+       "59": "you_m-tok-mins-59.mp3",
+       "60": "you_m-tok-mins-60.mp3"
+      }
+     },
+     {
+      "f": "you_m-ry-02-2.mp3"
+     }
+    ],
+    "YOU_F": [
+     {
+      "toks": [
+       "torch"
+      ],
+      "f": {
+       "on": "you_f-ry-02-on.mp3",
+       "off": "you_f-ry-02-off.mp3"
+      }
+     },
+     {
+      "tok": "mins",
+      "f": {
+       "0": "you_f-tok-mins-0.mp3",
+       "1": "you_f-tok-mins-1.mp3",
+       "2": "you_f-tok-mins-2.mp3",
+       "3": "you_f-tok-mins-3.mp3",
+       "4": "you_f-tok-mins-4.mp3",
+       "5": "you_f-tok-mins-5.mp3",
+       "6": "you_f-tok-mins-6.mp3",
+       "7": "you_f-tok-mins-7.mp3",
+       "8": "you_f-tok-mins-8.mp3",
+       "9": "you_f-tok-mins-9.mp3",
+       "10": "you_f-tok-mins-10.mp3",
+       "11": "you_f-tok-mins-11.mp3",
+       "12": "you_f-tok-mins-12.mp3",
+       "13": "you_f-tok-mins-13.mp3",
+       "14": "you_f-tok-mins-14.mp3",
+       "15": "you_f-tok-mins-15.mp3",
+       "16": "you_f-tok-mins-16.mp3",
+       "17": "you_f-tok-mins-17.mp3",
+       "18": "you_f-tok-mins-18.mp3",
+       "19": "you_f-tok-mins-19.mp3",
+       "20": "you_f-tok-mins-20.mp3",
+       "21": "you_f-tok-mins-21.mp3",
+       "22": "you_f-tok-mins-22.mp3",
+       "23": "you_f-tok-mins-23.mp3",
+       "24": "you_f-tok-mins-24.mp3",
+       "25": "you_f-tok-mins-25.mp3",
+       "26": "you_f-tok-mins-26.mp3",
+       "27": "you_f-tok-mins-27.mp3",
+       "28": "you_f-tok-mins-28.mp3",
+       "29": "you_f-tok-mins-29.mp3",
+       "30": "you_f-tok-mins-30.mp3",
+       "31": "you_f-tok-mins-31.mp3",
+       "32": "you_f-tok-mins-32.mp3",
+       "33": "you_f-tok-mins-33.mp3",
+       "34": "you_f-tok-mins-34.mp3",
+       "35": "you_f-tok-mins-35.mp3",
+       "36": "you_f-tok-mins-36.mp3",
+       "37": "you_f-tok-mins-37.mp3",
+       "38": "you_f-tok-mins-38.mp3",
+       "39": "you_f-tok-mins-39.mp3",
+       "40": "you_f-tok-mins-40.mp3",
+       "41": "you_f-tok-mins-41.mp3",
+       "42": "you_f-tok-mins-42.mp3",
+       "43": "you_f-tok-mins-43.mp3",
+       "44": "you_f-tok-mins-44.mp3",
+       "45": "you_f-tok-mins-45.mp3",
+       "46": "you_f-tok-mins-46.mp3",
+       "47": "you_f-tok-mins-47.mp3",
+       "48": "you_f-tok-mins-48.mp3",
+       "49": "you_f-tok-mins-49.mp3",
+       "50": "you_f-tok-mins-50.mp3",
+       "51": "you_f-tok-mins-51.mp3",
+       "52": "you_f-tok-mins-52.mp3",
+       "53": "you_f-tok-mins-53.mp3",
+       "54": "you_f-tok-mins-54.mp3",
+       "55": "you_f-tok-mins-55.mp3",
+       "56": "you_f-tok-mins-56.mp3",
+       "57": "you_f-tok-mins-57.mp3",
+       "58": "you_f-tok-mins-58.mp3",
+       "59": "you_f-tok-mins-59.mp3",
+       "60": "you_f-tok-mins-60.mp3"
+      }
+     },
+     {
+      "f": "you_f-ry-02-2.mp3"
+     }
+    ]
+   },
+   {
+    "YOU_M": [
+     {
+      "f": "you_m-ry-03.mp3"
+     },
+     {
+      "tok": "heardBefore",
+      "f": {
+       "0": "you_m-tok-heardBefore-0.mp3",
+       "1": "you_m-tok-heardBefore-1.mp3",
+       "2": "you_m-tok-heardBefore-2.mp3",
+       "3": "you_m-tok-heardBefore-3.mp3",
+       "4": "you_m-tok-heardBefore-4.mp3",
+       "5": "you_m-tok-heardBefore-5.mp3",
+       "6": "you_m-tok-heardBefore-6.mp3",
+       "7": "you_m-tok-heardBefore-7.mp3",
+       "8": "you_m-tok-heardBefore-8.mp3",
+       "9": "you_m-tok-heardBefore-9.mp3",
+       "10": "you_m-tok-heardBefore-10.mp3",
+       "11": "you_m-tok-heardBefore-11.mp3",
+       "12": "you_m-tok-heardBefore-12.mp3",
+       "13": "you_m-tok-heardBefore-13.mp3",
+       "14": "you_m-tok-heardBefore-14.mp3",
+       "15": "you_m-tok-heardBefore-15.mp3",
+       "16": "you_m-tok-heardBefore-16.mp3",
+       "17": "you_m-tok-heardBefore-17.mp3",
+       "18": "you_m-tok-heardBefore-18.mp3",
+       "19": "you_m-tok-heardBefore-19.mp3",
+       "20": "you_m-tok-heardBefore-20.mp3"
+      }
+     },
+     {
+      "f": "you_m-ry-03-2.mp3"
+     }
+    ],
+    "YOU_F": [
+     {
+      "f": "you_f-ry-03.mp3"
+     },
+     {
+      "tok": "heardBefore",
+      "f": {
+       "0": "you_f-tok-heardBefore-0.mp3",
+       "1": "you_f-tok-heardBefore-1.mp3",
+       "2": "you_f-tok-heardBefore-2.mp3",
+       "3": "you_f-tok-heardBefore-3.mp3",
+       "4": "you_f-tok-heardBefore-4.mp3",
+       "5": "you_f-tok-heardBefore-5.mp3",
+       "6": "you_f-tok-heardBefore-6.mp3",
+       "7": "you_f-tok-heardBefore-7.mp3",
+       "8": "you_f-tok-heardBefore-8.mp3",
+       "9": "you_f-tok-heardBefore-9.mp3",
+       "10": "you_f-tok-heardBefore-10.mp3",
+       "11": "you_f-tok-heardBefore-11.mp3",
+       "12": "you_f-tok-heardBefore-12.mp3",
+       "13": "you_f-tok-heardBefore-13.mp3",
+       "14": "you_f-tok-heardBefore-14.mp3",
+       "15": "you_f-tok-heardBefore-15.mp3",
+       "16": "you_f-tok-heardBefore-16.mp3",
+       "17": "you_f-tok-heardBefore-17.mp3",
+       "18": "you_f-tok-heardBefore-18.mp3",
+       "19": "you_f-tok-heardBefore-19.mp3",
+       "20": "you_f-tok-heardBefore-20.mp3"
+      }
+     },
+     {
+      "f": "you_f-ry-03-2.mp3"
+     }
+    ]
+   },
+   {
+    "YOU_M": [
+     {
+      "f": "you_m-ry-04.mp3"
+     }
+    ],
+    "YOU_F": [
+     {
+      "f": "you_f-ry-04.mp3"
+     }
+    ]
+   },
+   {
+    "YOU_M": [
+     {
+      "f": "you_m-ry-05.mp3"
+     }
+    ],
+    "YOU_F": [
+     {
+      "f": "you_f-ry-05.mp3"
+     }
+    ]
+   },
+   {
+    "YOU_M": [
+     {
+      "f": "you_m-ry-06.mp3"
+     }
+    ],
+    "YOU_F": [
+     {
+      "f": "you_f-ry-06.mp3"
+     }
+    ]
+   },
+   {
+    "YOU_M": [
+     {
+      "f": "you_m-ry-07.mp3"
+     }
+    ],
+    "YOU_F": [
+     {
+      "f": "you_f-ry-07.mp3"
+     }
+    ]
+   }
+  ],
+  "R10": [
+   null,
+   {
+    "YOU_M": [
+     {
+      "f": "you_m-r10-01.mp3"
+     }
+    ],
+    "YOU_F": [
+     {
+      "f": "you_f-r10-01.mp3"
+     }
+    ]
+   },
+   null,
+   null
+  ]
+ }
+}
